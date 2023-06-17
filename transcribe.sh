@@ -28,7 +28,7 @@ else
 fi
 
 # Creating folders
-grandparent_folder=~/Skripte
+grandparent_folder=~/Scripts
 parent_folder=mac-whisper
 
 # Create the grandparent folder if it doesn't exist
@@ -56,7 +56,7 @@ else
 fi
 
 # Episodes folder
-episodes_folder=~/Episoden
+episodes_folder=~/Episodes
 
 # Create the episodes folder if it doesn't exist
 if [ ! -d $episodes_folder ]; then
@@ -67,7 +67,7 @@ else
 fi
 
 # Transcriptions folder
-transcriptions_folder=~/Documents/Transkripte
+transcriptions_folder=~/Documents/Transcripts
 
 # Create the transcriptions folder if it doesn't exist
 if [ ! -d $transcriptions_folder ]; then
