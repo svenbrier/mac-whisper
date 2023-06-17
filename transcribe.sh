@@ -29,7 +29,7 @@ fi
 
 # Creating folders
 grandparent_folder=~/Skripte
-parent_folder=whisper
+parent_folder=mac-whisper
 
 # Create the grandparent folder if it doesn't exist
 if [ ! -d "$grandparent_folder" ]; then
